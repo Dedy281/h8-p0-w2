@@ -1,74 +1,63 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1561
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+1. Newton Second Law
+	Algoritma
+	1. Tentukan nilai m = 600
+	2. Tentukan nilai a = 2
+	3. Hitung resultan gaya tengan rumus m . a
+	4. Display hasil 1200
+	
+	Pseudocode
+	1. Store '93m'94 with value 2
+	2. Store '93a'94 with value 600
+	3. Store '93F'94 set with calculate (m x a)
+	4. Display result
+	
+2. Tahun Kabisat
+	Algoritma
+	1. Tentukan jumlah tahun
+	2. Jika jumlah tahun dapat habis di bagi 4 dan tidak habis di bagi 100 maka munculkan hasil tahun kabisat. Jika tidak, munculkan hasil bukan tahun kabisat
+	3. Jika jumlah tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400 maka munculkan hasil tahun kabisat. Jika tidak, munculkan hasil bukan tahun kabisat
 
-\f0\fs24 \cf0 1. Newton Second Law\
-	Algoritma\
-	1. Tentukan nilai m = 600\
-	2. Tentukan nilai a = 2\
-	3. Hitung resultan gaya tengan rumus m . a\
-	4. Display hasil 1200\
-	\
-	Pseudocode\
-	1. Store \'93m\'94 with value 2\
-	2. Store \'93a\'94 with value 600\
-	3. Store \'93F\'94 set with calculate (m x a)\
-	4. Display result\
-\
-2. Tahun Kabisat\
-	Algoritma\
-	1. Tentukan jumlah tahun\
-	2. Jika jumlah tahun dapat habis di bagi 4 dan tidak habis di bagi 100 maka munculkan hasil tahun kabisat. Jika tidak, munculkan hasil bukan tahun kabisat\
-	3. Jika jumlah tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400 maka munculkan hasil tahun kabisat. Jika tidak, munculkan hasil bukan tahun kabisat\
-\
-	Pseudocode\
-	1. Store \'93tahun\'94 to any number\
-	2. Display \'93tahun kabisat\'94 \
-	3. Display \'93bukan tahun kabisat\'94\
-	4. IF Calculate \'93tahun\'94 can /4 and \'93tahun\'94 mod 100	 \
-		DO display \'93tahun kabisat\'94\
-	    ELSE\
-		DO display \'93bukan tahun kabisat \'94\
-	5. IF Calculate \'93tahun\'94 can /4, can /100 and can /400\
-		DO display \'93tahun kabisat\'94\
-	    ELSE\
-		DO display \'93bukan tahun kabisat \'94\
-\
-3. Laundry Day\
-	Algoritma\
-	1. Ambil 20 baju yang akan di cuci\
-	2. Buka pintu mesin cuci\
-	3. Masukan baju sebanyak 20 ke mesin cuci\
-	4. Tutup kembali pintu mesin cuci\
-	5. Nyalakan mesin cuci\
-\
-	Psuedocode\
-	1. Store \'93full level baju\'94 with 0\
-	2. While \'93full level baju\'94 < 20\
-	      ADD \'93full level baju\'94 by 1\
-	3. Display \'93Mesin cuci dinyalakan\'94 \
-\
-4. Periksa Kuku\
-	Algoritma\
-	1. Tentukan peran \'93guru\'94\
-	2. Tentukan peran \'93siswa/siswi\'94\
-	3. Guru berkeliling untuk mengecek kuku masing - masing siswa/siswi\
+	Pseudocode
+	1. Store 'tahun' to any number
+	2. Display 'tahun kabisat'
+	3. Display 'bukan tahun kabisat'
+	4. IF Calculate 'tahun' can mod 4 and 'tahun' mod 100
+		DO display 'tahun kabisat'
+	    ELSE
+		DO display 'bukan tahun kabisat'
+	5. IF Calculate 'tahun' can mod 4, can mod 100 and can mod 400
+		DO display 'tahun kabisat'
+	    ELSE
+		DO display 'bukan tahun kabisat'
+
+3. Laundry Day
+	Algoritma
+	1. Ambil 20 baju yang akan di cuci
+	2. Buka pintu mesin cuci
+	3. Masukan baju sebanyak 20 ke mesin cuci
+	4. Tutup kembali pintu mesin cuci
+	5. Nyalakan mesin cuci
+
+	Psuedocode
+	1. Store 'full level baju' with 0
+	2. While 'full level baju' < 20
+	      ADD 'full level baju' by 1
+	3. Display 'Mesin cuci dinyalakan'
+
+4. Periksa Kuku
+	Algoritma
+	1. Tentukan peran 'guru'
+	2. Tentukan peran 'siswa/siswi'
+	3. Guru berkeliling untuk mengecek kuku masing - masing siswa/siswi
 	4. Apabila guru menemukan ada siswa/siswi yang memiliki kuku panjang maka guru akan menghukum siswa/siswi tersebut\
 	5. Apabila guru menemukan ada siswa/siswi yang memiliki kuku pendek maka guru akan memuji siswa/siswi terse but\
-\
-	Psuedocode\
-	1. Store \'93guru\'94\
-	2. Store \'93 siswa/siswa\'94\
-	3. Display \'93menghukum\'94\
-	4. Display \'93memuji\'94\
-	5. IF \'93guru\'94 menemukan \'93siswa/siswi\'94 memiliki kuku panjang\
-		DO Display \'93menghukum\'94\
-	    ELSE \
-		DO Display \'93memuji\'94\
-\
-\
-\
-	  }
+
+	Psuedocode
+	1. Store 'guru'
+	2. Store 'siswa/siswa'
+	3. Display 'menghukum'
+	4. Display 'memuji'
+	5. IF 'guru' menemukan 'siswa/siswi' memiliki kuku panjang
+		DO Display 'menghukum'
+	    ELSE 
+		DO Display 'memuji'
